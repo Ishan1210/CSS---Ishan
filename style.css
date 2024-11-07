@@ -1,1 +1,101 @@
-.class1 .class2 {background-color: yellow;}
+/* a[target="_top"]{
+    background-color: yellow;
+}
+
+a[target="_blank"]{
+    background-color:burlywood;
+}
+
+a[target="_parent"]{
+    background-color: pink;
+}
+.class1 .class2{
+    background-color: aqua;
+    color: blue;
+}
+
+.class1.class2{
+    background-color:gold;
+    color:violet;
+}
+
+body{
+    color: purple;
+}
+
+div{
+    background-color: orange;
+    padding: 15px;
+    border: 10px solid currentColor;
+    box-shadow: 1px 1px 20px currentColor;
+    
+}
+.blue>p{
+background-color: blue;
+    padding: 15px;
+    border: 10px solid currentColor;
+    box-shadow: 1px 1px 20px currentColor;
+}
+.class3>class5{
+    background-color: orange;
+    padding: 15px;
+    border: 10px solid currentColor;
+    box-shadow: 1px 1px 20px currentColor;
+} */
+ /* div[data-color]{
+    background-color: red;
+ } */
+/* [class*="foo"]{
+    color: red;
+}
+[class~="color-red"]{
+    color:yellow;
+}
+[class^="color-red"]{
+    background-color:rgb(0, 255, 51);
+}
+[class$="color-red"]{
+    background-color:rgb(0, 234, 255);
+} */
+ /* div span{
+    background-color: blueviolet;
+ }
+ div>span{
+    background-color: rgb(177, 226, 43);
+ }
+ div+span{
+    background-color: rgb(238, 209, 24);
+ }
+ div~span{
+    background-color: rgb(43, 186, 226);
+ }
+ a ~ span{
+    color: antiquewhite;
+ }
+ a + span{
+    color: aquamarine;
+ }
+ p+p{
+    color: red;
+ }
+p~p{
+    color: rgb(0, 255, 26);
+} */
+/* .warning{
+    background-color: rgb(30, 210, 48);
+}
+.important{
+    background-color: fuchsia;
+}
+.important.warning{
+    background-color: rgb(215, 39, 39);
+} */
+/* p:last-of-type{
+    background-color: red;
+}
+h1:last-of-type{
+    background-color: deeppink;
+} */
+input:in-range{
+    border: 1px solid blue;
+}
